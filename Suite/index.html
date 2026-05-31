@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Служба Повернення Світла ДТЕК</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>⚡ Служба Повернення Світла ДТЕК</h1>
+
+    <nav>
+        <ul class="menu">
+            <li><a href="#">Головна</a></li>
+
+            <li class="dropdown">
+                <a href="#">Послуги ▼</a>
+
+                <ul class="dropdown-content">
+                    <li><a href="#">Пошук світла</a></li>
+                    <li><a href="#">Екстрений електрик</a></li>
+                    <li><a href="#">Перевірка лічильника</a></li>
+                </ul>
+            </li>
+
+            <li><a href="#contact">Допомога</a></li>
+        </ul>
+    </nav>
+</header>
+
+<section class="hero">
+    <h2>Зникло світло?</h2>
+
+    <p>
+        Ми не гарантуємо результат,
+        але дуже вправно робимо вид що нам не всеодно.
+    </p>
+
+    <button id="openModal">
+        Подати заявку
+    </button>
+</section>
+
+<section class="gallery">
+    <h2>Наші героїчні досягнення</h2>
+
+    <p>
+        Фото об'єктів, де світло колись було.
+    </p>
+
+    <div class="images">
+        <img src="https://static.nv.ua/shared/system/MediaPhoto/images/000/434/644/original/19a96d9259eb879909083490b3ffe53f.png" alt="Фото 1">
+        <img src="https://lux.fm/uploads/media_news/2025/11/69147ac379b2c619797593.jpg?w=400&fit=cover&output=webp&q=85" alt="Фото 2">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTqsj3D6gsFZhQysSQipManijLmTo2otsVDJQ&s" alt="Фото 3">
+    </div>
+</section>
+
+<section id="contact" class="contact">
+
+    <h2>Немає світла?</h2>
+
+    <p>
+        Заповніть форму нижче і ми спробуємо
+        допомогти швидше, ніж закипить чайник, оуйес.
+    </p>
+
+    <form id="contactForm">
+
+        <input
+            type="text"
+            id="name"
+            placeholder="Ваше ім'я">
+
+        <input
+            type="email"
+            id="email"
+            placeholder="Ваш Email">
+
+        <textarea
+            id="message"
+            placeholder="Опишіть проблему зі світлом">
+        </textarea>
+
+        <button type="submit">
+            Викликати рятівників електрики вери стронг свееееееееег
+        </button>
+
+        <p id="formMessage"></p>
+
+    </form>
+
+</section>
+
+<div class="modal" id="modal">
+
+    <div class="modal-content">
+
+        <span class="close">&times;</span>
+
+        <h2>⚡ Заявку прийнято мабуть!</h2>
+
+        <p>
+            Наш фахівець вже дивиться на дроти
+            з дуже серйозним обличчям.
+        </p>
+
+    </div>
+
+</div>
+
+<button id="topBtn">
+    ⚡
+</button>
+
+<footer>
+    <p>
+        © 2026 Служба Повернення Світла ДТЕК.
+        Світло не гарантуємо, але дамо тобі надію яка точно сдохне.
+    </p>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
